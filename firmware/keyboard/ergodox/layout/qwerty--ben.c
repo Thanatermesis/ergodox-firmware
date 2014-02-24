@@ -54,7 +54,7 @@ static layout_t layout PROGMEM = {
      tab,        q,        w,        e,        r,        t,   quote,
    ctrlL,        a,        s,        d,        f,        g,
 shL2kcap,        z,        x,        c,        v,        b,  semicol,
-    guiL,    grave,  semicol,     altL,      del,
+    guiL,    semicol,  semicol,     altL,      del,
                                                                ctrlL,     altL,
                                                        nop,      nop,     lpupo3l3,
                                                        nop,      lpupo2l2,  lpupo1l1,
