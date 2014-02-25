@@ -100,7 +100,6 @@ shL2kcap,        z,        x,        c,        v,        b,  semicol,
 // left hand ...... ......... ......... ......... ......... ......... .........
   transp,       F1,       F2,       F3,       F4,       F5,      F11,
   transp,   transp,   transp,   transp,   transp,   transp,   transp,
-  transp,   transp,   transp,   transp,   transp,   transp,   transp,
   transp,   transp,   transp,   transp,   transp,   transp,
   transp,   transp,   transp,   transp,   transp,   transp,   transp,
   transp,   transp,   transp,   transp,   transp,
