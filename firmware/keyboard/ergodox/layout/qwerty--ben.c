@@ -65,7 +65,7 @@ shL2kcap,        z,        x,        c,        v,        b,  semicol,
            semicol,        n,        m,    comma,   period,    slash, shR2kcap,
                                       bs,   altR,   ctrlL,   arrowR,     guiR,
     altR,    ctrlR,
-   pageU,      nop,      nop,
+     nop      nop,      nop,
    lpupo2l2,    enter,    space  ),
 
 // ............................................................................
