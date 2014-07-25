@@ -147,10 +147,102 @@ void kb__led__delay__error(void) {
 void kb__led__delay__usb_init(void) {
 	// need to delay for a total of ~1 second
     kb__led__set( 1, OPT__LED_BRIGHTNESS );
-    _delay_ms(333);
+    _delay_ms(40);
     kb__led__set( 2, OPT__LED_BRIGHTNESS );
-    _delay_ms(333);
+    _delay_ms(40);
     kb__led__set( 3, OPT__LED_BRIGHTNESS );
-    _delay_ms(333);
+    _delay_ms(40);
+    kb__led__off( 1 );
+    _delay_ms(40);
+    kb__led__off( 2 );
+    _delay_ms(40);
+    kb__led__off( 3 );
+    _delay_ms(40);
+    kb__led__on( 1 );
+    _delay_ms(40);
+    kb__led__on( 2 );
+    _delay_ms(40);
+    kb__led__on( 3 );
+    _delay_ms(40);
+    kb__led__off( 1 );
+    _delay_ms(40);
+    kb__led__off( 2 );
+    _delay_ms(40);
+    kb__led__off( 3 );
+    _delay_ms(40);
+    kb__led__on( 1 );
+    _delay_ms(40);
+    kb__led__on( 2 );
+    _delay_ms(40);
+    kb__led__on( 3 );
+
+    _delay_ms(40);
+    kb__led__off( 1 );
+    kb__led__off( 2 );
+    kb__led__off( 3 );
+
+    _delay_ms(100);
+    kb__led__on( 1 );
+    kb__led__on( 2 );
+    kb__led__on( 3 );
+
+    _delay_ms(40);
+    kb__led__off( 1 );
+    kb__led__off( 2 );
+    kb__led__off( 3 );
+
+    _delay_ms(40);
+    kb__led__on( 1 );
+    kb__led__on( 2 );
+    kb__led__on( 3 );
+
+    _delay_ms(40);
+    kb__led__off( 1 );
+    kb__led__off( 2 );
+    kb__led__off( 3 );
+
+    _delay_ms(40);
+    kb__led__on( 1 );
+    kb__led__on( 2 );
+    kb__led__on( 3 );
+
+    _delay_ms(40);
+    kb__led__off( 1 );
+    kb__led__off( 2 );
+    kb__led__off( 3 );
+
+    _delay_ms(40);
+    kb__led__on( 1 );
+    kb__led__on( 2 );
+    kb__led__on( 3 );
+    _delay_ms(40);
+    kb__led__off( 1 );
+    kb__led__off( 2 );
+    kb__led__off( 3 );
+
+    _delay_ms(40);
+    kb__led__on( 1 );
+    kb__led__on( 2 );
+    kb__led__on( 3 );
+
+    _delay_ms(40);
+    kb__led__off( 1 );
+    kb__led__off( 2 );
+    kb__led__off( 3 );
+
+    _delay_ms(40);
+    kb__led__on( 1 );
+    kb__led__on( 2 );
+    kb__led__on( 3 );
+
+    _delay_ms(40);
+    kb__led__off( 1 );
+    kb__led__off( 2 );
+    kb__led__off( 3 );
+
+    _delay_ms(40);
+    kb__led__on( 1 );
+    kb__led__on( 2 );
+    kb__led__on( 3 );
 }
 
