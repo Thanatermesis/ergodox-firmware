@@ -22,7 +22,9 @@
 // firmware/main
 // ----------------------------------------------------------------------------
 
-#define  OPT__DEBOUNCE_TIME  5
+// Cherry keys default is 5 but Thanatermesis suggests a value higher than 8 in order to avoid duplicated keypresses
+// ALPS switches can be set instead to a vew low value, seems like even 1 is fine
+#define  OPT__DEBOUNCE_TIME  1
 // in milliseconds
 
 
