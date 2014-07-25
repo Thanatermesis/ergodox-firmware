@@ -58,7 +58,7 @@
 // firmware/keyboard/led
 // ----------------------------------------------------------------------------
 
-#define  OPT__LED_BRIGHTNESS  0.5
+#define  OPT__LED_BRIGHTNESS  1
 // a multiplier, with '1' being max
 
 
