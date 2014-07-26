@@ -21,14 +21,14 @@
 
 void key_functions__press(uint8_t keycode) {
 	kb__led__on(1);
-	_delay_ms(50);
+	_delay_ms(10);
 	kb__led__off(1);
-	kb__led__on(2);
-	_delay_ms(50);
-	kb__led__off(2);
-	kb__led__on(3);
-	_delay_ms(50);
-	kb__led__off(3);
+	/*kb__led__on(2);*/
+	/*_delay_ms(50);*/
+	/*kb__led__off(2);*/
+	/*kb__led__on(3);*/
+	/*_delay_ms(50);*/
+	/*kb__led__off(3);*/
     usb__kb__set_key(true, keycode);
 }
 
