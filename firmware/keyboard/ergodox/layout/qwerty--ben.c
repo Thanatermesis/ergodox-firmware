@@ -53,7 +53,7 @@ static layout_t layout PROGMEM = {
    equal,        1,        2,        3,        4,        5,      esc,
      tab,        q,        w,        e,        r,        t,   lpu2l2,
  bkslash,        a,        s,        d,        f,        g,
-shL2kcap,        z,        x,        c,        v,        b, lpupo2l2,
+shL2kcap,        prueba,        x,        c,        v,        b, lpupo2l2,
     guiL,    grave,  bkslash,   arrowL,   arrowR,
                                                                ctrlL,     altL,
                                                        nop,      nop,     home,

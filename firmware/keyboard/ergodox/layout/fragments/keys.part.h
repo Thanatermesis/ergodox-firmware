@@ -136,6 +136,28 @@ KEYS__DEFAULT( volumeU, KEYBOARD__VolumeUp   );
 KEYS__DEFAULT( volumeD, KEYBOARD__VolumeDown );
 KEYS__DEFAULT( mute,    KEYBOARD__Mute       );
 
+void P(prueba) (void) {
+	usb__kb__set_key(true, KEYPAD__2_DownArrow);
+	usb__kb__send_report();
+	usb__kb__set_key(false, KEYPAD__2_DownArrow);
+	usb__kb__send_report();
+
+	usb__kb__set_key(true, KEYPAD__4_LeftArrow);
+	usb__kb__send_report();
+	usb__kb__set_key(false, KEYPAD__4_LeftArrow);
+	usb__kb__send_report();
+
+	usb__kb__set_key(true, KEYPAD__1_End);
+	usb__kb__send_report();
+	usb__kb__set_key(false, KEYPAD__1_End);
+	usb__kb__send_report();
+
+	usb__kb__set_key(false, KEYBOARD__LeftAlt);
+	usb__kb__send_report();
+
+}
+void R(prueba) (void) {
+}
 
 // --- special function -------------------------------------------------------
 
