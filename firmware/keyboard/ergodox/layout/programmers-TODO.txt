@@ -1,0 +1,45 @@
+Wanted keys/features:
+
+- select-all (macro of: home, shift+end)
+- copy
+- paste
+- firma emails macro
+- volume-up/down/mute
+- play-pause/next/stop/prev
+- numpad
+- F's
+- programmer chars (use my style with a thumb combo)
+- some needed but not reachable-easly keys, like: :, ,, ;, -, +, &, @...
+- win / alt / altgr / ctrl / ctrleft / menu / tab / esc 
+- insert / shift-insert (console paste) / printscr
+- home / end / pag-up / pag-down / next / prev
+- XF86Back / XF86Forward  (thinkpad next/prev pages, some mouses too)
+- mirror/reverse mode (one-hand idea)
+- vim combos: :wq / :wa / :qa! / 'make'
+- firmware reloader
+
+LAYER IDEAS:
+- applications layer:  volume, playback controls, apps launchers
+    - application controls:  ctrl+pageup (browser tabs), undo/redo, 
+        - menu-up/down/pick, fullscreen
+        - bold/italic/underline ???, selectword, reply, forward, saveas, 
+- console strokes: "cd ", "ls^M", .. ?  
+    - console controls: "readline" has its own way to "select-all" and similar things
+    |> this layer should be a "shift" of the applications one, since will have the same actions
+- numerical:  numpad, F's, printsrc, etc
+- programmers:  vim shortcuts, "make" macros
+- macros:  email signature, select-all, copy/paste, 
+- movements:  home, end, next, prev, pageup/down, scroll, zoom, browsers-next/back
+- reverse mirror: one-hand mode
+- lang chars: ñ, é, ç, copyright, etc...
+- special/specific application controls if needed (like in a big video-editor application, control hotkeys)
+- specific/special states launcher, for example: "bring my chat window and focus in the entry box", to move to specific things or states for commonly used things
+- desktop controls: maximize window, maximize horizontally, focus left window, go to desk number, etc..
+
+
+
+
+
+Extra things not needed:
+- mouse keys
+- 
