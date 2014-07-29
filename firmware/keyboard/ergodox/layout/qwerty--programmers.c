@@ -82,27 +82,27 @@ static layout_t layout PROGMEM = {
 
 // ............................................................................
 
-    MATRIX_LAYER(  // layer 1 : number pad
+    MATRIX_LAYER(  // - Layer 1:    special / extra chars, arrow-keys, movements, F's, good for programmers
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
-  transp,   transp,   transp,   transp,   transp,   transp,   transp,
-  transp,   transp,   transp,   transp,   transp,   transp,   transp,
+  F11,       F1,       F2,       F3,       F4,       F5,      braceL,
+  transp,   transp,   transp,   transp,   transp,   transp,   bkslash,
   transp,   transp,   transp,   transp,   transp,   transp,
   transp,   transp,   transp,   transp,   transp,   transp,   transp,
-  transp,      ins,   transp,   transp,   transp,
-                                                              transp,   transp,
+  transp,   transp,   transp,   transp,   transp,
+                                                              F11,   F12,
                                                     transp,   transp,   transp,
                                                     transp,   transp,   transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
-            lpo1l1,   transp,   lpo1l1,    equal,    slash, asterisk,   transp,
-            transp,   transp,        7,        8,        9,     dash,   transp,
-                      transp,        4,        5,        6,     plus,   transp,
-            transp,   transp,        1,        2,        3,    enter,   transp,
-                                transp,   transp,   period,    enter,   transp,
+               prScr,       F6,       F7,       F8,       F9,      F10,    ins,
+            transp,      transp,     pageU,      home,     end,     transp,    transp,
+                     arrowL,    arrowD,    arrowU,  arrowR,    transp,    transp,
+          transp,  transp,        pageD,   transp,   transp,   transp,   transp,
+                                transp,   transp,   transp,    transp,   transp,
   transp,   transp,
   transp,   transp,   transp,
-  transp,   transp,        0  ),
+  transp,   transp,   transp  ),
 
 // ............................................................................
 
