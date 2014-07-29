@@ -38,6 +38,18 @@
 
 #include "./fragments/matrix-control.part.h"
 
+/*
+Layouts definitions:
+- Layer 1:           normal layer
+- Layer 1 shifted:   shifted chars (and only chars)
+- Layer 2:           special / extra chars, arrow-keys, movements, F's, good for programmers
+- Layer 3:           Numpad
+- Layer 4:           Application controls
+- Layer 5:           Desktop controls
+- Layer 6:           macros, signatures, combos, vim shortcuts
+- Layer 7:           reverse (one hand) modes
+- Layer 8:           Dead mode, for special chars only
+*/
 
 // ----------------------------------------------------------------------------
 // layout
