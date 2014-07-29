@@ -35,8 +35,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.84858346"
-     inkscape:cx="613.96436"
-     inkscape:cy="272.186"
+     inkscape:cx="481.9797"
+     inkscape:cy="118.98952"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -44,10 +44,10 @@
      fit-margin-left="10"
      fit-margin-right="10"
      fit-margin-bottom="10"
-     inkscape:window-width="1440"
-     inkscape:window-height="900"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1880"
+     inkscape:window-height="1062"
+     inkscape:window-x="40"
+     inkscape:window-y="1080"
      inkscape:window-maximized="1"
      units="mm"
      inkscape:snap-global="false"
@@ -88,7 +88,7 @@
          sodipodi:role="line"
          x="1065.2693"
          y="362.1073"
-         id="tspan3821">&quot;</tspan></text>
+         id="tspan3821">&quot; ' `</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -187,7 +187,7 @@
          sodipodi:role="line"
          x="1449.0876"
          y="423.97791"
-         id="tspan3779">:</tspan></text>
+         id="tspan3779">&amp;</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -235,7 +235,7 @@
          sodipodi:role="line"
          x="1373.9412"
          y="485.92322"
-         id="tspan3755">- -</tspan></text>
+         id="tspan3755">: ;</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -337,10 +337,7 @@
          sodipodi:role="line"
          x="1250.3669"
          y="412.79822"
-         id="tspan3707">i<tspan
-   x="1250.3669"
-   y="412.79822"
-   id="tspan3709" /></tspan></text>
+         id="tspan3707">i ?</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -367,10 +364,7 @@
          sodipodi:role="line"
          x="1250.3669"
          y="536.54822"
-         id="tspan3695">,<tspan
-   x="1250.3669"
-   y="536.54822"
-   id="tspan3697" /></tspan></text>
+         id="tspan3695">, !</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -382,7 +376,7 @@
          sodipodi:role="line"
          x="1250.3669"
          y="598.42322"
-         id="tspan3689">+</tspan></text>
+         id="tspan3689">=</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -394,10 +388,7 @@
          sodipodi:role="line"
          x="1189.0193"
          y="418.42322"
-         id="tspan3683">u<tspan
-   x="1189.0193"
-   y="418.42322"
-   id="tspan3685" /></tspan></text>
+         id="tspan3683">u ¿</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -424,7 +415,7 @@
          sodipodi:role="line"
          x="1189.0193"
          y="542.17322"
-         id="tspan3671">m</tspan></text>
+         id="tspan3671">m ¡</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -436,7 +427,7 @@
          sodipodi:role="line"
          x="1189.0193"
          y="604.04822"
-         id="tspan3665">=</tspan></text>
+         id="tspan3665">+</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -502,7 +493,7 @@
          sodipodi:role="line"
          x="1065.2693"
          y="525.29822"
-         id="tspan3635">__</tspan></text>
+         id="tspan3635">|</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
@@ -514,7 +505,7 @@
          sodipodi:role="line"
          x="1142.868"
          y="-267.08939"
-         id="tspan3629">Del</tspan></text>
+         id="tspan3263">L-x</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
@@ -562,7 +553,7 @@
          sodipodi:role="line"
          x="767.03442"
          y="362.1073"
-         id="tspan3593">' `</tspan></text>
+         id="tspan3593">[</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -790,10 +781,7 @@
          sodipodi:role="line"
          x="580.21191"
          y="412.79822"
-         id="tspan3485">e<tspan
-   x="580.21191"
-   y="412.79822"
-   id="tspan3487" /></tspan></text>
+         id="tspan3485">e €</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -805,10 +793,7 @@
          sodipodi:role="line"
          x="580.21191"
          y="474.67322"
-         id="tspan3479">d [<tspan
-   x="580.21191"
-   y="474.67322"
-   id="tspan3481" /></tspan></text>
+         id="tspan3479">d</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -862,7 +847,7 @@
          sodipodi:role="line"
          x="642.08691"
          y="480.29822"
-         id="tspan3455">f ]</tspan></text>
+         id="tspan3455">f</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -943,7 +928,7 @@
          sodipodi:role="line"
          x="765.83691"
          y="435.29822"
-         id="tspan3419">/</tspan></text>
+         id="tspan3419">/ \</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -955,7 +940,7 @@
          sodipodi:role="line"
          x="765.83691"
          y="525.29822"
-         id="tspan3413">|</tspan></text>
+         id="tspan3413">]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
@@ -979,7 +964,7 @@
          sodipodi:role="line"
          x="149.46049"
          y="1086.4514"
-         id="tspan3401">L6</tspan></text>
+         id="tspan3401">L4</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
@@ -991,7 +976,7 @@
          sodipodi:role="line"
          x="87.585464"
          y="1086.4514"
-         id="tspan3395">L4</tspan></text>
+         id="tspan3395">L3</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
@@ -1073,7 +1058,7 @@
          id="tspan3372"
          y="615.44733"
          x="70.988991"
-         sodipodi:role="line">L3</tspan></text>
+         sodipodi:role="line">BKSP</tspan></text>
     <text
        transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
        sodipodi:linespacing="125%"
@@ -1124,7 +1109,7 @@
          sodipodi:role="line"
          x="70.988991"
          y="553.5755"
-         id="tspan3464">ESC</tspan></text>
+         id="tspan3464">Del</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
@@ -1136,14 +1121,14 @@
          sodipodi:role="line"
          x="9.1140051"
          y="553.5755"
-         id="tspan3470">BKSPl</tspan></text>
+         id="tspan3470">ESC</tspan></text>
   </g>
   <g
      inkscape:label="keys"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-301.03566,-277.5647)"
-     style="display:inline">
+     style="display:none">
     <rect
        y="326.21735"
        x="-1401.5625"
@@ -1778,7 +1763,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="option-keys-1x"
-     style="display:inline">
+     style="display:none">
     <rect
        onclick="keyclick('k0B-1x')"
        style="fill:#00c300;fill-opacity:0.07999998;stroke:#000000;stroke-width:3.9375;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
