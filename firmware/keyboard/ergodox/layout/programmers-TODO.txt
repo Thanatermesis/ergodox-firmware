@@ -31,7 +31,7 @@ LAYER IDEAS:
 - macros:  email signature, select-all, copy/paste, 
 - movements:  home, end, next, prev, pageup/down, scroll, zoom, browsers-next/back
 - reverse mirror: one-hand mode
-- lang chars: ñ, é, ç, copyright, etc...
+- lang chars: ñ, é, ç, ¿?, ¡!, €, copyright, etc...
 - special/specific application controls if needed (like in a big video-editor application, control hotkeys)
 - specific/special states launcher, for example: "bring my chat window and focus in the entry box", to move to specific things or states for commonly used things
 - desktop controls: maximize window, maximize horizontally, focus left window, go to desk number, etc..

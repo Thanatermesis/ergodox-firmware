@@ -36,7 +36,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.2069105"
      inkscape:cx="613.96436"
-     inkscape:cy="272.186"
+     inkscape:cy="271.77172"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -76,7 +76,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="labels"
-     style="display:inline">
+     style="display:none">
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -187,7 +187,7 @@
          sodipodi:role="line"
          x="1449.0876"
          y="423.97791"
-         id="tspan3779">&amp;</tspan></text>
+         id="tspan3779">__</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -199,7 +199,7 @@
          sodipodi:role="line"
          x="1449.0876"
          y="485.85291"
-         id="tspan3773">dead8</tspan></text>
+         id="tspan3773">dead7</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -235,7 +235,7 @@
          sodipodi:role="line"
          x="1373.9412"
          y="485.92322"
-         id="tspan3755">: ;</tspan></text>
+         id="tspan3755">:</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -271,7 +271,7 @@
          sodipodi:role="line"
          x="1435.0251"
          y="609.67322"
-         id="tspan3737">inv7</tspan></text>
+         id="tspan3737">inv6</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -337,7 +337,7 @@
          sodipodi:role="line"
          x="1250.3669"
          y="412.79822"
-         id="tspan3707">i ?</tspan></text>
+         id="tspan3707">i</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -364,7 +364,7 @@
          sodipodi:role="line"
          x="1250.3669"
          y="536.54822"
-         id="tspan3695">, !</tspan></text>
+         id="tspan3695">, ;</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -388,7 +388,7 @@
          sodipodi:role="line"
          x="1189.0193"
          y="418.42322"
-         id="tspan3683">u ¿</tspan></text>
+         id="tspan3683">u</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -415,7 +415,7 @@
          sodipodi:role="line"
          x="1189.0193"
          y="542.17322"
-         id="tspan3671">m ¡</tspan></text>
+         id="tspan3671">m</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -481,7 +481,7 @@
          sodipodi:role="line"
          x="1065.2693"
          y="435.29822"
-         id="tspan3641">$</tspan></text>
+         id="tspan3641">$ &amp;</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -505,7 +505,7 @@
          sodipodi:role="line"
          x="1142.868"
          y="-267.08939"
-         id="tspan3263">L6</tspan></text>
+         id="tspan3263">L5</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
@@ -541,7 +541,7 @@
          sodipodi:role="line"
          x="1265.9149"
          y="-205.21437"
-         id="tspan3611">L2</tspan></text>
+         id="tspan3611">L1</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -553,7 +553,7 @@
          sodipodi:role="line"
          x="767.03442"
          y="362.1073"
-         id="tspan3593">[</tspan></text>
+         id="tspan3593">[ {</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -676,7 +676,7 @@
          sodipodi:role="line"
          x="456.46191"
          y="485.92322"
-         id="tspan3533">a {</tspan></text>
+         id="tspan3533">a</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -715,7 +715,7 @@
          sodipodi:role="line"
          x="394.58691"
          y="609.67322"
-         id="tspan3515">inv7</tspan></text>
+         id="tspan3515">inv6</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -742,7 +742,7 @@
          sodipodi:role="line"
          x="518.33691"
          y="480.29822"
-         id="tspan3503">s }</tspan></text>
+         id="tspan3503">s</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -781,7 +781,7 @@
          sodipodi:role="line"
          x="580.21191"
          y="412.79822"
-         id="tspan3485">e €</tspan></text>
+         id="tspan3256">e</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
@@ -940,7 +940,7 @@
          sodipodi:role="line"
          x="765.83691"
          y="525.29822"
-         id="tspan3413">]</tspan></text>
+         id="tspan3413">] }</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
@@ -952,7 +952,7 @@
          sodipodi:role="line"
          x="149.46046"
          y="1024.5765"
-         id="tspan3407">L5</tspan></text>
+         id="tspan3407">L4</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
@@ -964,7 +964,7 @@
          sodipodi:role="line"
          x="149.46049"
          y="1086.4514"
-         id="tspan3401">L4</tspan></text>
+         id="tspan3401">L3</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
@@ -976,7 +976,7 @@
          sodipodi:role="line"
          x="87.585464"
          y="1086.4514"
-         id="tspan3395">L3</tspan></text>
+         id="tspan3395">L2</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
@@ -988,7 +988,7 @@
          sodipodi:role="line"
          x="25.71048"
          y="1086.4514"
-         id="tspan3389">L2</tspan></text>
+         id="tspan3389">L1</tspan></text>
     <text
        transform="translate(-301.03566,-277.5647)"
        xml:space="preserve"
