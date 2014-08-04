@@ -63,9 +63,9 @@ static layout_t layout PROGMEM = {
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
            at,      caret,     parenL,   parenR,   dblQuote,     quote,    amp,
-          tab,          q,          w,        e,        r,          t,    pipe,
+          tab,          q,          w,        e,        r,          t,   slash,
         ctrlL,          a,          s,        d,        f,          g,
-     shL2kcap,          z,          x,        c,        v,          b,   slash,
+     shL2kcap,          z,          x,        c,        v,          b,    pipe,
      lpupo6l6,   lessThan,   grtrThan,    pound,  percent,
                                                                lpupo4l4,   lpupo5l5,
                                                     lpupo2l2,        bs,        del,
