@@ -89,7 +89,7 @@ static layout_t layout PROGMEM = {
   transp,         F1,       F2,       F3,        F4,       F5,     grave,
   transp,         at,      amp,     plus,       nop,    quote,   bkslash,
   transp,   asterisk,      nop,   parenL,    parenR,      nop,
-  transp,     braceL,   braceR,    pound,   percent,      nop,    transp,
+  transp,     braceL,   braceR,    pound,   percent,    tilde,    transp,
   transp,     transp,   transp,   transp,    transp,
                                                          transp,      F11,
                                                transp,   transp,   transp,
