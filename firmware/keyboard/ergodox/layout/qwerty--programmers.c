@@ -69,9 +69,9 @@ static layout_t layout PROGMEM = {
  lpupo6l6,   lessThan,   grtrThan,   nop,   altL,
                                                       esc,   lpupo5l5,
                                                        lpupo1l1,   bs,   del,
-                                                       lpupo1l1,   bs,   del,
+                                                       space,   enter,   del,
 // right hand ..... ......... ......... ......... ......... ......... .........
-   dblQuote,         6,       7,       8,          9,       0,   question,
+   asterisk,         6,       7,       8,          9,       0,   question,
      dollar,         y,       u,       i,          o,       p,     exclam,
                      h,       j,       k,          l, lpupo1l1,     colon,
     undersc,         n,       m,   comma,     period,    dash,   shR2kcap,
@@ -87,8 +87,8 @@ static layout_t layout PROGMEM = {
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
   transp,         F1,       F2,       F3,        F4,       F5,     grave,
-  transp,         at,      amp,     plus,       nop,    quote,   bkslash,
-  transp,   asterisk,      nop,   parenL,    parenR,      nop,
+  transp,         at,      amp,     plus,  dblQuote,    quote,   bkslash,
+  transp,        nop,      nop,   parenL,    parenR,      nop,
   transp,     braceL,   braceR,    pound,   percent,    tilde,    transp,
   transp,     transp,   transp,   transp,    transp,
                                                          transp,      F11,
