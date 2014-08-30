@@ -43,7 +43,7 @@ Layouts definitions:
 - Layer 0:           normal layer
 - Layer 0 shifted:   shifted chars (and only chars)
 - Layer 1:           special / extra chars, arrow-keys, movements, F's, good for programmers
-- Layer 2:           Numpad
+- Layer 2:           Numpad + movements
 - Layer 3:           Application controls
 - Layer 4:           Desktop controls
 - Layer 5:           macros, signatures, combos, vim shortcuts
@@ -62,23 +62,24 @@ static layout_t layout PROGMEM = {
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
-      esc,          1,          2,      3,     4,   5,   caret,
-      tab,          q,          w,      e,     r,   t,   slash,
+// TODO: move the first tilde to an Esc, put tilde before altL
+    tilde,          1,          2,      3,     4,   5,  caret,
+      tab,          q,          w,      e,     r,   t,   home,
     ctrlL,          a,          s,      d,     f,   g,
- shL2kcap,          z,          x,      c,     v,   b,    pipe,
- lpupo6l6,   lessThan,   grtrThan,  tilde,   altL,
-                                                               esc,   lpupo5l5,
+ shL2kcap,          z,          x,      c,     v,   b,    end,
+ lpupo6l6,   lessThan,   grtrThan, lpupo2l2,  altL,
+                                                            nop,   lpupo5l5,
                                                        lpupo1l1,   bs,   del,
-                                                       lpupo1l1,   bs,   del,
+                                                       lpupo1l1,   bs,   esc,
 // right hand ..... ......... ......... ......... ......... ......... .........
-     equal,         6,       7,       8,          9,       0,   question,
+      slash,         6,       7,       8,          9,       0,   question,
      dollar,         y,       u,       i,          o,       p,     exclam,
-                     h,       j,       k,          l, lpupo1l1,     colon,
+                     h,       j,       k,          l, lpupo1l1,    colon,
     undersc,         n,       m,   comma,     period,    dash,   shR2kcap,
                       lpupo1l1,   semicol,   brktL,   brktR,        nop,
-        guiL,     esc,
+        guiL,     nop,
        ctrlR,     nop,     nop,
-    altR,   enter,   space  ),
+        altR,   enter,   space  ),
 
 // ............................................................................
 
@@ -87,15 +88,15 @@ static layout_t layout PROGMEM = {
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
   transp,         F1,       F2,       F3,        F4,       F5,     grave,
-  transp,         at,      amp,     plus,  dblQuote,    quote,   bkslash,
-  transp,   asterisk,   dollar,   parenL,    parenR,    slash,
-  transp,     braceL,   braceR,    pound,   percent,    pipe,    transp,
+  transp,         at,      amp,     plus,  dblQuote,    quote,   pageU,
+  transp,   asterisk,      nop,   parenL,    parenR,    semicol,
+  transp,     braceL,   braceR,    pound,   percent,    pipe,    pageD,
   transp,     transp,   transp,   transp,    transp,
                                                          transp,      F11,
                                                transp,   transp,   transp,
                                                transp,   transp,   transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
-    transp,       F6,       F7,         F8,       F9,      F10,   ins,
+  bkslash,       F6,       F7,         F8,       F9,      F10,   ins,
    transp,   equal,    pageU,     home,      end,   transp,        bs,
              arrowL,   arrowD,   arrowU,   arrowR,   transp,      del,
    transp,   transp,    pageD,   transp,   transp,   transp,   transp,
@@ -107,7 +108,7 @@ static layout_t layout PROGMEM = {
 // ............................................................................
 
 
-    MATRIX_LAYER(  // layer 2 : movements
+    MATRIX_LAYER(  // layer 2 : numpad + movements
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
@@ -120,11 +121,11 @@ static layout_t layout PROGMEM = {
                                                     transp,   transp,   transp,
                                                     transp,   transp,   transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
-   transp,   transp,   transp,   transp,   transp,   transp,   transp,
-    transp,   transp,      transp,   transp,   transp,   transp,   transp,
-              transp,      transp,   transp,   transp,   transp,   transp,
-    transp,   transp,      transp,   transp,   transp,   transp,   transp,
-                       transp,   transp,   transp,   transp,   transp,
+               num,   transp,   transp,    kpDiv, kpMul,    transp,  transp,
+            transp,   transp,     kp7,     kp8,     kp9,    kpSub,   transp,
+                      transp,     kp4,     kp5,     kp6,    kpAdd,   transp,
+            transp,      kp0,     kp1,     kp2,     kp3,    kpEnter, transp,
+                                transp,    kp0,   kpDec,    kpEnter, transp,
     transp,   transp,
     transp,   transp,   transp,
     transp,   transp,   transp  ),
