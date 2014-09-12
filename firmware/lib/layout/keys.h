@@ -40,6 +40,9 @@
 #ifndef KEYS__SHIFTED
     #error "You must define `KEYS__SHIFTED`"
 #endif
+#ifndef KEYS__SHIFTED_ONCE
+    #error "You must define `KEYS__SHIFTED_ONCE`"
+#endif
 
 // ----------------------------------------------------------------------------
 
@@ -173,6 +176,7 @@ KEYS__SHIFTED(    tilde,          KEYBOARD__GraveAccent_Tilde          );
 KEYS__SHIFTED(    grtrThan,       KEYBOARD__Period_GreaterThan         );
 KEYS__SHIFTED(    dblQuote,       KEYBOARD__SingleQuote_DoubleQuote    );
 KEYS__SHIFTED(    colon,          KEYBOARD__Semicolon_Colon            );
+KEYS__SHIFTED_ONCE(    colon1,          KEYBOARD__Semicolon_Colon            );
 KEYS__SHIFTED(    question,       KEYBOARD__Slash_Question             );
 // --- (keypad) ---
 KEYS__DEFAULT(    kpEnter,        KEYPAD__Enter                        );

@@ -33,6 +33,19 @@
     void R(name) (void) { KF(release)(value);                   \
                           KF(release)(KEYBOARD__LeftShift); }
 
+/**                                            macros/KEYS__SHIFTED/description
+ * Define the functions for a "shifted" key that is pressed only one time
+ *
+ * Needed by ".../lib/layout/keys.h"
+ */
+#define  KEYS__SHIFTED_ONCE(name, value)                       \
+    void P(name) (void) { KF(press)(KEYBOARD__LeftShift);      \
+                          KF(press)(value);                    \
+                          usb__kb__send_report();              \
+                          KF(release)(value);                  \
+                          KF(release)(KEYBOARD__LeftShift); }  \
+    void R(name) (void) {  }
+
 /**                                    macros/KEYS__LAYER__PUSH_POP/description
  * Define the functions for a layer push-pop key (i.e. a layer shift key).
  *
