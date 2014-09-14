@@ -74,7 +74,7 @@ static layout_t layout PROGMEM = {
 // right hand ..... ......... ......... ......... ......... ......... .........
       equal,         6,       7,       8,          9,       0,   question,
       slash,         y,       u,       i,          o,       p,     exclam,
-                     h,       j,       k,          l, lpupo1l1,    colon,
+                     h,       j,       k,          l, lpupo1l1,    colon1,
     undersc,         n,       m,   comma,     period,    dash,   shR2kcap,
                       lpupo1l1,   semicol,   brktL,   brktR,        nop,
         guiL,     nop,
