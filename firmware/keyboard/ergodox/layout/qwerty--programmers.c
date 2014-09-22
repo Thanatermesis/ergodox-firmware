@@ -124,7 +124,7 @@ static layout_t layout PROGMEM = {
             transp,   transp,     kp7,     kp8,     kp9,    kpSub,       bs,
                       transp,     kp4,     kp5,     kp6,    kpAdd,      del,
             transp,      kp0,     kp1,     kp2,     kp3,    kpEnter, transp,
-                                transp,    kp0,   kpDec,    kpEnter, transp,
+                                  kp0,     kp0,   kpDec,    kpEnter, transp,
     transp,   transp,
     transp,   transp,   transp,
     transp,   transp,   transp  ),
