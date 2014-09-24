@@ -228,6 +228,18 @@ void P(lpu1l1) (void) { layer_stack__push(0, 1, 1); kb__led__on(1); }
 void P(lpo1l1) (void) { layer_stack__pop_id(1); kb__led__off(1); }
 #define  keys__release__lpo1l1  KF(nop)
 
+KEYS__LAYER__PUSH_POP(2,1);
+void P(lpu2l1) (void) { layer_stack__push(0, 2, 1); kb__led__on(1); }
+#define  keys__release__lpu1l1  KF(nop)
+void P(lpo2l1) (void) { layer_stack__pop_id(1); kb__led__off(1); }
+#define  keys__release__lpo1l1  KF(nop)
+
+KEYS__LAYER__PUSH_POP(3,1);
+void P(lpu3l1) (void) { layer_stack__push(0, 3, 1); kb__led__on(1); }
+#define  keys__release__lpu1l1  KF(nop)
+void P(lpo3l1) (void) { layer_stack__pop_id(1); kb__led__off(1); }
+#define  keys__release__lpo1l1  KF(nop)
+
 KEYS__LAYER__PUSH_POP(2,2);
 void P(lpu2l2) (void) { layer_stack__push(0, 2, 2); kb__led__on(2); }
 #define  keys__release__lpu2l2  KF(nop)
