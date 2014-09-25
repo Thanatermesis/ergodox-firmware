@@ -206,23 +206,23 @@ static layout_t layout PROGMEM = {
 // macro, unused,
        K,    transp,
 // left hand ...... ......... ......... ......... ......... ......... .........
-     transp,   transp,   transp,   transp,   transp,   transp,   transp,
-         bs,        p,        o,        i,        u,        y,    space,
+     transp,        0,        9,        8,        7,        6,  transp,
+         bs,        p,        o,        i,        u,        y,    esc,
         del,   transp,        l,        k,        j,        h,
-     transp,   transp,   transp,   transp,        n,        m,    enter,
+     transp,     dash,   period,    comma,        m,        n,    enter,
      transp,   transp,   transp,   transp,   transp,
                                                         transp,   transp,
                                                transp,   transp,   transp,
                                                space,    enter,   transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
-     transp,   transp,   transp,   transp,   transp,   transp,   transp,
-     transp,   transp,   transp,   transp,   transp,   transp,   transp,
-               transp,   transp,   transp,   transp,   transp,   transp,
-     transp,   transp,   transp,   transp,   transp,   transp,   transp,
+     transp,        5,        4,        3,        2,        1,   transp,
+     transp,        t,        r,        e,        w,        q,      tab,
+                    g,        f,        d,        s,        a,    ctrlL,
+     transp,        b,        v,        c,        x,        z,   transp,
                          transp,   transp,   transp,   transp,   transp,
      transp,      transp,
      transp,      transp,      transp,
-     transp,      transp,      transp  ),
+     transp,      bs,          del  ),
 
 // ............................................................................
     MATRIX_LAYER(  // layer 7 :  Dead mode, for special keys
