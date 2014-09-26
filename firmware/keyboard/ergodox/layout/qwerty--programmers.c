@@ -92,8 +92,8 @@ static layout_t layout PROGMEM = {
   transp,     braceL,   braceR,    pound,   percent,    pipe,    pageD,
   transp,     transp,   transp,   transp,    transp,
                                                          transp,      F11,
-                                               space,   transp,   transp,
-                                               space,   transp,   transp,
+                                              transp,   transp,   transp,
+                                              transp,   transp,   transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
    transp,       F6,       F7,         F8,       F9,      F10,   ins,
    transp,   equal,    pageU,     home,      end,   transp,        bs,
