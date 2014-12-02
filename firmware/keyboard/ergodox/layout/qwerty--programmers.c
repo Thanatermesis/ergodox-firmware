@@ -43,7 +43,7 @@ Layouts definitions:
 - Layer 0:           normal layer
 - Layer 0 shifted:   shifted chars (and only chars)
 - Layer 1:           special / extra chars, arrow-keys, movements, F's, good for programmers
-- Layer 2:           Numpad + movements
+- Layer 2:           Extra special chars
 - Layer 3:           Application controls
 - Layer 4:           Desktop controls
 - Layer 5:           macros, signatures, combos, vim shortcuts
@@ -75,8 +75,8 @@ static layout_t layout PROGMEM = {
         esc,         y,       u,       i,          o,       p,     exclam,
                      h,       j,       k,          l, lpupo2l1,    colon,
     undersc,         n,       m,   comma,     period,    dash,   shR2kcap,
-                      lpupo3l1,   semicol,   brktL,   brktR,        nop,
-        guiL,     nop,
+                      lpupo3l1,   semicol,   brktL,   brktR,     lpupo6l6,
+        guiL, lpupo2l2,
        ctrlR,     nop,     nop,
         altR,   enter,   space  ),
 
@@ -107,14 +107,15 @@ static layout_t layout PROGMEM = {
 // ............................................................................
 
 
-    MATRIX_LAYER(  // layer 2 : numpad + movements
+    MATRIX_LAYER(  // layer 2 : Extra special chars needed
+       //   good for ruby, example, type:  sdf
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
   transp,   transp,   transp,   transp,   transp,   transp,   transp,
-  transp,   transp,   transp,   transp,   transp,   transp,   transp,
-  transp,   transp,   transp,   transp,   transp,   transp,
-  transp,   transp,   transp,   transp,   transp,   transp,   transp,
+  transp,   transp,   transp,   transp, dblQuote,    quote,   transp,
+  transp,    pound,   dollar,   braceL,   braceR,   transp,
+  transp,   transp,   transp,    brktL,    brktR,   transp,   transp,
   transp,   transp,   transp,   transp,   transp,
                                                               transp,   transp,
                                                     transp,   transp,   transp,
