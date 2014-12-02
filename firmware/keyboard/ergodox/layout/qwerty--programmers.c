@@ -62,7 +62,7 @@ static layout_t layout PROGMEM = {
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
-      nop,          1,          2,      3,     4,   5,  caret,
+      esc,          1,          2,      3,     4,   5,  caret,
       tab,          q,          w,      e,     r,   t,  slash,
     ctrlL,          a,          s,      d,     f,   g,
  shL2kcap,          z,          x,      c,     v,   b,    nop,
