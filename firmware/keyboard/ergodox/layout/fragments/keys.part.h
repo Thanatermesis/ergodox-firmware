@@ -180,6 +180,40 @@ void R(shR2kcap) (void) { KF(2_keys_capslock)(false, KEYBOARD__RightShift); }
 void P(btldr) (void) { KF(jump_to_bootloader)(); }
 void R(btldr) (void) {}
 
+/**
+ * NICE MACROS to type-less
+ */
+
+void P(bash_devnull1) (void) {
+      key_functions__type_string( PSTR(
+            "1>/dev/null"
+            ) );
+
+}
+void R(bash_devnull1) (void) {}
+
+void P(bash_devnull2) (void) {
+      key_functions__type_string( PSTR(
+            "2>/dev/null"
+            ) );
+
+}
+void R(bash_devnull2) (void) {}
+
+void P(bash_devnull12) (void) {
+      key_functions__type_string( PSTR(
+            "1>/dev/null 2>&1"
+            ) );
+
+}
+void R(bash_devnull12) (void) {}
+
+
+/**
+ * END - NICE MACROS to type-less
+ */
+
+
 /**                                                   keys/dmp_sram/description
  * type the contents of SRAM, in ihex format
  *

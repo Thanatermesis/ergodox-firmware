@@ -67,8 +67,8 @@ static layout_t layout PROGMEM = {
     ctrlL,          a,          s,      d,     f,   g,
  shL2kcap,          z,          x,      c,     v,   b,    nop,
  lpupo6l6,   lessThan,   grtrThan,  tilde,  altL,
-                                                       lpupo2l2,   lpupo5l5,
-                                                       lpupo1l1,   bs,   nop,
+                                                       lpupo2l2,   lpupo7l7,
+                                                       lpupo1l1,   bs,   lpupo5l5,
                                                        lpupo1l1,   bs,   del,
 // right hand ..... ......... ......... ......... ......... ......... .........
       equal,         6,       7,       8,          9,       0,   question,
@@ -180,6 +180,11 @@ static layout_t layout PROGMEM = {
      transp,      transp,      transp  ),
 
 
+/*#define bash_devnull1 type_string( PSTR( "1>/dev/null" ) );*/
+/*#define bash_devnull1 type_string("hi");*/
+/*#define  bash_devnull1()  printf("hello\n");*/
+/*#define bash_devnull2 key_functions__type_string ( PSTR( "2>/dev/null" ) );*/
+/*#define bash_devnull12 key_functions__type_string ( PSTR( "2>/dev/null 1>&2" ) );*/
     MATRIX_LAYER(  // layer 5 :   macros, signatures, combos, vim shortcuts
 // macro, unused,
        K,    transp,
@@ -193,7 +198,7 @@ static layout_t layout PROGMEM = {
                                                        transp,      transp,      transp,
                                                        transp,      transp,      transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
-     transp,   transp,   transp,   transp,   transp,   transp,   transp,
+     bash_devnull1,   bash_devnull2,   bash_devnull12,   transp,   transp,   transp,   transp,
      transp,   transp,   transp,   transp,   transp,   transp,   transp,
                transp,   transp,   transp,   transp,   transp,   transp,
      transp,   transp,   transp,   transp,   transp,   transp,   transp,
