@@ -67,18 +67,18 @@ static layout_t layout PROGMEM = {
     ctrlL,          a,          s,      d,     f,   g,
  shL2kcap,          z,          x,      c,     v,   b,    nop,
  lpupo6l6,   lessThan,   grtrThan,  tilde,  altL,
-                                                       lpupo2l2,   lpupo7l7,
-                                                       lpupo1l1,   bs,   lpupo5l5,
-                                                       lpupo1l1,   bs,   del,
+                                                                 lpupo2l2,    lpupo7l7,
+                                                     lpupo1l1,   bs,          lpupo5l5,
+                                                     lpupo1l1,   bs,          del,
 // right hand ..... ......... ......... ......... ......... ......... .........
       equal,         6,       7,       8,          9,       0,   question,
         esc,         y,       u,       i,          o,       p,     exclam,
                      h,       j,       k,          l, lpupo2l1,    colon,
     undersc,         n,       m,   comma,     period,    dash,   shR2kcap,
                       lpupo3l1,   semicol,   brktL,   brktR,     lpupo6l6,
-        guiL, lpupo2l2,
-       ctrlR,     nop,     nop,
-        altR,   enter,   space  ),
+    altR,   guiL,
+   ctrlR,   enter,   space,
+lpupo2l2,   enter,   space  ),
 
 // ............................................................................
 
@@ -198,8 +198,8 @@ static layout_t layout PROGMEM = {
                                                        transp,      transp,      transp,
                                                        transp,      transp,      transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
-     bash_devnull1,   bash_devnull2,   bash_devnull12,   transp,   transp,   transp,   transp,
-     transp,   transp,   transp,   transp,   transp,   transp,   transp,
+     transp, bash_devnull1,   bash_devnull2,   bash_devnull12,   transp,   transp,   transp,
+     transp,   transp,   transp,   transp,   transp,   transp,   transp,  
                transp,   transp,   transp,   transp,   transp,   transp,
      transp,   transp,   transp,   transp,   transp,   transp,   transp,
                          transp,   transp,   transp,   transp,   transp,
