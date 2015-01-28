@@ -216,6 +216,11 @@ void P(signature_niceday) (void) {
       key_functions__type_string( PSTR(
             "Have a nice day,"
             ) );
+            usb__kb__send_report();           // send to usb
+            // include an enter too, because is what i use
+            KF(press)(0x28);
+            usb__kb__send_report();
+            KF(release)(0x28);
 
 }
 void R(signature_niceday) (void) {}
@@ -242,6 +247,7 @@ void P(signature_email) (void) {
             usb__kb__send_report();           // send to usb
             KF(release)(0x1F);                // release
             KF(release)(KEYBOARD__LeftShift); // release
+            usb__kb__send_report();           // send to usb
 
       key_functions__type_string( PSTR(
             "gmail.com"
