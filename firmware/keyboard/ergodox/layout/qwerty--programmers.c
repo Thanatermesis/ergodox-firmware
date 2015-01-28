@@ -76,7 +76,7 @@ static layout_t layout PROGMEM = {
                      h,       j,       k,          l, lpupo2l1,    colon,
     undersc,         n,       m,   comma,     period,    dash,   shR2kcap,
                       lpupo3l1,   semicol,   brktL,   brktR,     lpupo6l6,
-    altR,   guiL,
+    guiL,   altR,
    ctrlR,   enter,   space,
 lpupo2l2,   enter,   space  ),
 
@@ -180,11 +180,7 @@ lpupo2l2,   enter,   space  ),
      transp,      transp,      transp  ),
 
 
-/*#define bash_devnull1 type_string( PSTR( "1>/dev/null" ) );*/
-/*#define bash_devnull1 type_string("hi");*/
-/*#define  bash_devnull1()  printf("hello\n");*/
-/*#define bash_devnull2 key_functions__type_string ( PSTR( "2>/dev/null" ) );*/
-/*#define bash_devnull12 key_functions__type_string ( PSTR( "2>/dev/null 1>&2" ) );*/
+
     MATRIX_LAYER(  // layer 5 :   macros, signatures, combos, vim shortcuts
 // macro, unused,
        K,    transp,
@@ -199,8 +195,8 @@ lpupo2l2,   enter,   space  ),
                                                        transp,      transp,      transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
      transp, bash_devnull1,   bash_devnull2,   bash_devnull12,   transp,   transp,   transp,
-     transp,   transp,   transp,   transp,   transp,   transp,   transp,  
-               transp,   transp,   transp,   transp,   transp,   transp,
+     transp,   transp,   transp,   transp,   transp,   transp,   transp,
+               signature_niceday,   signature_name,   signature_email,   transp,   transp,   transp,
      transp,   transp,   transp,   transp,   transp,   transp,   transp,
                          transp,   transp,   transp,   transp,   transp,
      transp,      transp,

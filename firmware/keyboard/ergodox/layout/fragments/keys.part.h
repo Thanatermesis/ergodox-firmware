@@ -184,6 +184,7 @@ void R(btldr) (void) {}
  * NICE MACROS to type-less
  */
 
+//   1>/dev/null
 void P(bash_devnull1) (void) {
       key_functions__type_string( PSTR(
             "1>/dev/null"
@@ -192,6 +193,7 @@ void P(bash_devnull1) (void) {
 }
 void R(bash_devnull1) (void) {}
 
+//   2>/dev/null
 void P(bash_devnull2) (void) {
       key_functions__type_string( PSTR(
             "2>/dev/null"
@@ -200,6 +202,7 @@ void P(bash_devnull2) (void) {
 }
 void R(bash_devnull2) (void) {}
 
+//   1>/dev/null 2>&1
 void P(bash_devnull12) (void) {
       key_functions__type_string( PSTR(
             "1>/dev/null 2>&1"
@@ -207,6 +210,48 @@ void P(bash_devnull12) (void) {
 
 }
 void R(bash_devnull12) (void) {}
+
+//   Have a nice day,
+void P(signature_niceday) (void) {
+      key_functions__type_string( PSTR(
+            "Have a nice day,"
+            ) );
+
+}
+void R(signature_niceday) (void) {}
+
+//   Thanatermesis
+void P(signature_name) (void) {
+      key_functions__type_string( PSTR(
+            "Thanatermesis"
+            ) );
+
+}
+void R(signature_name) (void) {}
+
+//
+void P(signature_email) (void) {
+      key_functions__type_string( PSTR(
+            "thanatermesis"
+            ) );
+            usb__kb__send_report();
+
+            // this entry writes an "@", we need use this way since there's not reliable way to write utf-8 chars, and it may not even work
+            KF(press)(KEYBOARD__LeftShift);   // press shift
+            KF(press)(0x1F);                  // write the AT value from firmware/lib/usb/usage-page/keyboard.h
+            usb__kb__send_report();           // send to usb
+            KF(release)(0x1F);                // release
+            KF(release)(KEYBOARD__LeftShift); // release
+
+      key_functions__type_string( PSTR(
+            "gmail.com"
+            ) );
+            usb__kb__send_report();
+            //usb__kb__send_report();
+            //usb__kb__send_report();
+
+}
+void R(signature_email) (void) {}
 
 
 /**
