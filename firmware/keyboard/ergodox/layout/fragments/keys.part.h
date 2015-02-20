@@ -260,6 +260,22 @@ void P(signature_email) (void) {
 void R(signature_email) (void) {}
 
 
+//   Thank you,
+void P(signature_thankyou) (void) {
+      key_functions__type_string( PSTR(
+            "Thank you,"
+            ) );
+            usb__kb__send_report();           // send to usb
+            // include an enter too, because is what i use
+            KF(press)(0x28);
+            usb__kb__send_report();
+            KF(release)(0x28);
+
+}
+void R(signature_thankyou) (void) {}
+
+
+
 /**
  * END - NICE MACROS to type-less
  */
