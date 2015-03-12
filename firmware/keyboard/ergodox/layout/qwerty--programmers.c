@@ -187,7 +187,7 @@ lpupo2l2,   enter,   space  ),
 // left hand ...... ......... ......... ......... ......... ......... .........
       btldr,      transp,      transp,      transp,      transp,      transp,      transp,
      transp,      transp,      transp,      transp,      transp,      transp,      transp,
-     transp, gui_selectall,    transp,      transp,      transp,      transp,
+     transp, gui_selectline,    transp,      transp,      transp,      transp,
      transp,      transp,      transp,      transp,      transp,      transp,      transp,
      transp,      transp,      transp,      transp,      transp,
                                                                  transp,      transp,

@@ -274,8 +274,8 @@ void P(signature_thankyou) (void) {
 }
 void R(signature_thankyou) (void) {}
 
-// selectall: selects all the contents of a line in a GUI application
-void P(gui_selectall) (void) {
+// selectline: selects all the contents of a line in a GUI application
+void P(gui_selectline) (void) {
             KF(press)(KEYBOARD__Home);
             usb__kb__send_report();           // send to usb
             KF(release)(KEYBOARD__Home);
@@ -292,7 +292,7 @@ void P(gui_selectall) (void) {
             KF(release)(KEYBOARD__LeftShift); // release
             usb__kb__send_report();           // send to usb
 }
-void R(gui_selectall) (void) {}
+void R(gui_selectline) (void) {}
 
 
 
