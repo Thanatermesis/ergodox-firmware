@@ -135,6 +135,8 @@ lpupo2l2,   enter,   space  ),
 
     MATRIX_LAYER(  // layer 3 :  applications controls
 // macro, unused,
+// NOTE: actually this is used only for games like torus-trooper, to have the arrow keys and z,x
+// working at the same time... FIXME: we should have this keyboard mode locked instead of pressed-while
        K,    transp,
 // left hand ...... ......... ......... ......... ......... ......... .........
      transp,   transp,   transp,   transp,   transp,   transp,   transp,
