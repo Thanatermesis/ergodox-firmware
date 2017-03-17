@@ -214,7 +214,7 @@ void R(bash_devnull12) (void) {}
 //   Have a nice day,
 void P(signature_niceday) (void) {
       key_functions__type_string( PSTR(
-            "Have a nice day,"
+            "Thank you and have a nice day,"
             ) );
             usb__kb__send_report();           // send to usb
             // include an enter too, because is what i use
@@ -224,6 +224,22 @@ void P(signature_niceday) (void) {
 
 }
 void R(signature_niceday) (void) {}
+
+//   Donation thank important
+void P(donation_thx_important) (void) {
+      key_functions__type_string( PSTR(
+            "First thanks a lot for your donation, it is very important for the survival and progress of the project"
+            ) );
+            usb__kb__send_report();
+
+            // include an enter too, because is what i use
+            KF(press)(0x28);
+            usb__kb__send_report();
+            KF(release)(0x28);
+            usb__kb__send_report();
+
+}
+void R(donation_thx_important) (void) {}
 
 //   Thanatermesis
 void P(signature_name) (void) {
@@ -273,6 +289,20 @@ void P(signature_thankyou) (void) {
 
 }
 void R(signature_thankyou) (void) {}
+
+//   Thanks support you,
+void P(signature_thx_support) (void) {
+      key_functions__type_string( PSTR(
+            "Thanks for your support and have a nice day,"
+            ) );
+            usb__kb__send_report();           // send to usb
+            // include an enter too, because is what i use
+            KF(press)(0x28);
+            usb__kb__send_report();
+            KF(release)(0x28);
+
+}
+void R(signature_thx_support) (void) {}
 
 // selectline: selects all the contents of a line in a GUI application
 void P(gui_selectline) (void) {

@@ -22,7 +22,7 @@
 // firmware/main
 // ----------------------------------------------------------------------------
 
-#define  OPT__DEBOUNCE_TIME  34
+#define  OPT__DEBOUNCE_TIME  14
 // in milliseconds
 
 
