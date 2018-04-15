@@ -196,7 +196,7 @@ lpupo2l2,   enter,   space  ),
                                                        transp,      transp,      transp,
                                                        transp,      transp,      transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
-     transp, bash_devnull1,   bash_devnull2,   bash_devnull12,   transp,   transp,   transp,
+     lc_all_c, bash_devnull1,   bash_devnull2,   bash_devnull12,   transp,   transp,   transp,
      transp,   transp,   transp,   transp,   transp,   transp,   transp,
                signature_niceday,   signature_name,   signature_email,   signature_thankyou,   signature_thx_support,   transp,
      transp,   donation_thx_important,   transp,   transp,   transp,   transp,   transp,

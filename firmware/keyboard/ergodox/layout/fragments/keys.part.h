@@ -184,6 +184,15 @@ void R(btldr) (void) {}
  * NICE MACROS to type-less
  */
 
+// LC_ALL=C
+void P(lc_all_c) (void) {
+      key_functions__type_string( PSTR(
+            "LC_ALL=C "
+            ) );
+
+}
+void R(lc_all_c) (void) {}
+
 //   1>/dev/null
 void P(bash_devnull1) (void) {
       key_functions__type_string( PSTR(
@@ -214,7 +223,7 @@ void R(bash_devnull12) (void) {}
 //   Have a nice day,
 void P(signature_niceday) (void) {
       key_functions__type_string( PSTR(
-            "Thank you and have a nice day,"
+            "Thank you and have a beautiful day,"
             ) );
             usb__kb__send_report();           // send to usb
             // include an enter too, because is what i use
@@ -293,7 +302,7 @@ void R(signature_thankyou) (void) {}
 //   Thanks support you,
 void P(signature_thx_support) (void) {
       key_functions__type_string( PSTR(
-            "Thanks for your support and have a nice day,"
+            "Thanks for your support and have a beautiful day,"
             ) );
             usb__kb__send_report();           // send to usb
             // include an enter too, because is what i use
