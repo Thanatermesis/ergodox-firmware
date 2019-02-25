@@ -122,7 +122,7 @@ lpupo2l2,   enter,   space  ),
                                                     transp,   transp,   transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
                num,   transp,   transp,    kpDiv, kpMul,    transp,  transp,
-            transp,   transp,     kp7,     kp8,     kp9,    kpSub,       bs,
+            prScr,   transp,     kp7,     kp8,     kp9,    kpSub,       bs,
                       transp,     kp4,     kp5,     kp6,    kpAdd,      del,
             transp,      kp0,     kp1,     kp2,     kp3,    kpEnter, transp,
                                   kp0,     kp0,   kpDec,    kpEnter, transp,
